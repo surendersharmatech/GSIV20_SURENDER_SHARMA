@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <Fragment>
         <Switch>
-          <Route path="/movie">
+          <Route exact path="/movie">
 
             <Movie />
           </Route>

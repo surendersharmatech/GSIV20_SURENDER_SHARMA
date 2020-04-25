@@ -1,0 +1,8 @@
+.btn-outline-success{
+    color :#34A853
+}
+.btn-outline-success:hover{
+
+    color :#dfdfdf;
+    background-color: #34A853;
+}

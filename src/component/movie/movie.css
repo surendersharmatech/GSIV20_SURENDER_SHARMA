@@ -1,0 +1,123 @@
+
+
+.main_card {
+    color: #000;
+    /* width: 760px; */
+    height: 390px;
+    margin: 50px auto;
+    display: flex;
+    /* max-width: 770px; */
+    background: #ffffff;
+}
+
+.card_left {
+    width: 90%;
+}
+
+.card_datails {
+    width: 90%;
+    padding: 30px;
+    margin-top: -25px;
+}
+.card_datails  h1 {
+    font-size: 30px;
+}
+.card_right img {
+    height: 390px;
+    border-radius: 2px;
+}
+.card_right {
+    border-radius: 2px;
+}
+
+.card_cat {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.PG, .year, .genre, .time {
+    color: fff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+
+.disc {
+    font-weight: 100;
+    line-height: 27px;
+}
+a {
+    color: darkcyan;
+    display: block;
+    text-decoration: none;
+}
+
+button {
+    color: #fff;
+    border: none;
+    padding: 20px;
+    outline: none;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background: #92FE9D;
+    border-radius: 12px;
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    -webkit-transition: 300ms ease-in-out;
+    -o-transition: 200ms ease-in-out;
+    transition: 200ms ease-in-out;
+}
+
+button:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+
+
+@-webkit-keyframes bounce {
+  8% {
+    transform: scale(0.3);
+    -webkit-transform: scale(0.8);
+    opacity: 1;
+  }
+  10% {
+    transform: scale(1.8);
+    -webkit-transform: scale2);
+    opacity: 0;
+        }
+}
+
+@keyframes bounce {
+  8% {
+    transform: scale(0.3);
+    -webkit-transform: scale(0.8);
+    opacity: 1;
+  }
+  20% {
+    transform: scale(1.8);
+    -webkit-transform: scale2);
+    opacity: 0;
+        }
+}
+
+
+
+
+
+@-webkit-keyframes rotation {
+        from {
+                -webkit-transform: rotate(0deg);
+        }
+        to {
+                -webkit-transform: rotate(359deg);
+        }
+}
