@@ -9,7 +9,6 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <h2>Samsung Playlist List</h2>
         <Switch>
           <Route path="/movie">
 

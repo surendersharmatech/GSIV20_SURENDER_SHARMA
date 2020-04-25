@@ -1,15 +1,17 @@
-import {baseUrl} from '../../helper/baseURL';
+import baseURL from '../../helper/baseURL';
+import {APIKEY} from '../../helper/const'
 import {  GET_MOVIE_LIST_REQUEST,  REQUEST_FAILURE, FETCH_REQUEST } from './type'
 
 
-export const getLibraryList = () => async (dispatch) => {
+export const getMovieList = () => async (dispatch) => {
     dispatch({ type: FETCH_REQUEST})
-    await baseUrl.get('/getlist' )
+    await baseURL.get(`3/list/1?api_key=${APIKEY}` )
     .then(response=>
         {
-            if(response.data.status===200)
+            console.log(response)
+            if(response.status===200)
             {
-                dispatch({ type: GET_MOVIE_LIST_REQUEST, payload: response });
+                dispatch({ type: GET_MOVIE_LIST_REQUEST, payload: response.data.items });
             }
         })
         .catch(error=>
