@@ -20,3 +20,21 @@ export const getMovieList = () => async (dispatch) => {
              dispatch({type:REQUEST_FAILURE,payload:error.response.data['message']});
             })
 }
+
+export const getMovieListBySearching = (name) => async (dispatch) => {
+    dispatch({ type: FETCH_REQUEST})
+    await baseURL.get(`3/search/movie?api_key=${APIKEY}&language=en-US&query=${name}` )
+    .then(response=>
+        {
+            console.log(response)
+            if(response.status===200)
+            {
+                dispatch({ type: GET_MOVIE_LIST_REQUEST, payload: response.data.results });
+            }
+        })
+        .catch(error=>
+            {
+                console.log(error.response.data['message'])
+             dispatch({type:REQUEST_FAILURE,payload:error.response.data['message']});
+            })
+}

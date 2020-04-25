@@ -34,7 +34,7 @@ body {
     color: #6ABCEA;
   }
   
-  .container {
+  .container1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -149,6 +149,7 @@ body {
     float: right;
     position: relative;
     margin-top: 5px;
+    color: #f25c00;
   }
   
   .movie-info {
