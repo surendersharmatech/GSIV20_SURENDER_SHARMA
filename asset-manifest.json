@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/GSIV20_SURENDER_SHARMA/static/css/main.fa1ac779.chunk.css",
-    "main.js": "/GSIV20_SURENDER_SHARMA/static/js/main.cd978060.chunk.js",
-    "main.js.map": "/GSIV20_SURENDER_SHARMA/static/js/main.cd978060.chunk.js.map",
+    "main.js": "/GSIV20_SURENDER_SHARMA/static/js/main.62b4e871.chunk.js",
+    "main.js.map": "/GSIV20_SURENDER_SHARMA/static/js/main.62b4e871.chunk.js.map",
     "runtime-main.js": "/GSIV20_SURENDER_SHARMA/static/js/runtime-main.6da130b7.js",
     "runtime-main.js.map": "/GSIV20_SURENDER_SHARMA/static/js/runtime-main.6da130b7.js.map",
     "static/js/2.9e39677d.chunk.js": "/GSIV20_SURENDER_SHARMA/static/js/2.9e39677d.chunk.js",
     "static/js/2.9e39677d.chunk.js.map": "/GSIV20_SURENDER_SHARMA/static/js/2.9e39677d.chunk.js.map",
     "index.html": "/GSIV20_SURENDER_SHARMA/index.html",
-    "precache-manifest.3ea886bb4a2342acaa7cb6497fd72a8a.js": "/GSIV20_SURENDER_SHARMA/precache-manifest.3ea886bb4a2342acaa7cb6497fd72a8a.js",
+    "precache-manifest.1c42e07e0e22d1b3c5df01cf400cb649.js": "/GSIV20_SURENDER_SHARMA/precache-manifest.1c42e07e0e22d1b3c5df01cf400cb649.js",
     "service-worker.js": "/GSIV20_SURENDER_SHARMA/service-worker.js",
     "static/css/main.fa1ac779.chunk.css.map": "/GSIV20_SURENDER_SHARMA/static/css/main.fa1ac779.chunk.css.map",
     "static/js/2.9e39677d.chunk.js.LICENSE.txt": "/GSIV20_SURENDER_SHARMA/static/js/2.9e39677d.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.6da130b7.js",
     "static/js/2.9e39677d.chunk.js",
     "static/css/main.fa1ac779.chunk.css",
-    "static/js/main.cd978060.chunk.js"
+    "static/js/main.62b4e871.chunk.js"
   ]
 }

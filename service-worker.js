@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/GSIV20_SURENDER_SHARMA/precache-manifest.3ea886bb4a2342acaa7cb6497fd72a8a.js"
+  "/GSIV20_SURENDER_SHARMA/precache-manifest.1c42e07e0e22d1b3c5df01cf400cb649.js"
 );
 
 self.addEventListener('message', (event) => {
