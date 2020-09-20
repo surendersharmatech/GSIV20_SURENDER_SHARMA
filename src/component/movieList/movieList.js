@@ -40,14 +40,14 @@ class MovieList extends Component {
         <Header searchBar={true} />
         <div className="container1">
           {movieList && movieList.map((item, index) => {
-            return <MovieCard 
+            return <span key={item.id}><MovieCard 
             id={item.id}
             image_path={item.poster_path}
             title={item.title}
             rating={item.vote_average}
             description={item.overview}
             onClick={this.onClickDetail}
-            />
+            /></span>
 
           })}
         </div>

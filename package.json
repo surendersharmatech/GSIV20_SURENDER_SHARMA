@@ -2,6 +2,7 @@
   "name": "GSIV20_SURENDER_SHARMA",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://surenderhsr44.github.io/GSIV20_SURENDER_SHARMA",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -19,6 +20,8 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages  -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "create-react-component-folder": "^0.2.0"
+    "create-react-component-folder": "^0.2.0",
+    "gh-pages": "^3.1.0"
   }
 }
