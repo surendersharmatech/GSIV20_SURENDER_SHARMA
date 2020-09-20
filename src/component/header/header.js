@@ -34,7 +34,7 @@ class Header extends Component {
         <button onClick={this.onSearchClick} className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>}
   <Link to='#' className="navbar-brand">{this.props.title}</Link>
-  <Link to='/' className="navbar-brand">Home</Link>
+  <Link to={`${process.env.PUBLIC_URL}/`} className="navbar-brand">Home</Link>
 
 
       </nav></div>;

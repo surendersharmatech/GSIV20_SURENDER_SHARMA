@@ -25,7 +25,7 @@ class MovieList extends Component {
   onClickDetail = (id) => {
     console.log(id)
     sessionStorage.setItem('movieId', id)
-    history.push('/movie')
+    history.push(process.env.PUBLIC_URL+'/movie')
   }
   render() {
     console.log(this.props.movieList)
