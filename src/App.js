@@ -8,16 +8,17 @@ import Home from './component/home'
 
 class App extends Component {
   render() {
+    console.log(process.env.PUBLIC_URL)
     return (
       <Fragment>
         <Switch>
-          <Route exact path="/movie">
+          <Route exact path={`${process.env.PUBLIC_URL}/movie`}>
             <Movie />
           </Route>
-          <Route exact path="/home">
+          <Route exact path={`${process.env.PUBLIC_URL}/home`}>
 <Home />
             </Route>
-          <Route exact path="/">
+          <Route exact path={`${process.env.PUBLIC_URL}/`}>
             <Movielist />
           </Route>
         </Switch>
