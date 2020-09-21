@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b4aebba242b9fee534495f21e56717d",
+    "revision": "7a871171110cf7cbabec654ba2266098",
     "url": "/GSIV20_SURENDER_SHARMA/index.html"
   },
   {
