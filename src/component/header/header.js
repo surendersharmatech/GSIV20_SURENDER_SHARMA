@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './header.css'
 
 import { getMovieList, getMovieListBySearching } from '../../redux-container/movie/action'
@@ -29,12 +29,12 @@ class Header extends Component {
   render() {
     return <div>
       <nav className="navbar navbar-light bg-light justify-content-between">
-      {this.props.searchBar &&<form className="form-inline">
-        <input className="form-control mr-sm-2" type="search" id="movieName" value={this.state.movieName} onChange={this.onsearchMovie} placeholder="Search" aria-label="Search" />
-        <button onClick={this.onSearchClick} className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>}
-  <Link to='#' className="navbar-brand">{this.props.title}</Link>
-  <Link to={`${process.env.PUBLIC_URL}/`} className="navbar-brand">Home</Link>
+        {this.props.searchBar && <form className="form-inline">
+          <input className="form-control mr-sm-2" type="search" id="movieName" value={this.state.movieName} onChange={this.onsearchMovie} placeholder="Search" aria-label="Search" />
+          <button onClick={this.onSearchClick} className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>}
+        <Link to='#' className="navbar-brand">{this.props.title}</Link>
+        <Link to={`${process.env.PUBLIC_URL}/`} className="navbar-brand">Home</Link>
 
 
       </nav></div>;

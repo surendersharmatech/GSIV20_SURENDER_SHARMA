@@ -6,13 +6,26 @@ import Header from '../header'
 import { getMovieDetailById } from '../../redux-container/movie/action'
 
 class Movie extends Component {
+    constructor(props){
+        super(props);
+        this.state={loader:false}
+      }
     componentDidMount() {
+        this.setState({loader:true});
+
         this.props.GetMovieDetailById(sessionStorage.getItem('movieId'))
+       this.setState({loader:false});
+
     }
 
     render() {
         console.log(this.props.movieList)
         const { movieDetail } = this.props
+        if (this.state.loader) {
+            return <div className='loader'>
+      
+            </div>
+          }
         return <div>
             <div className="container-fluid">
                 <Header searchBar={false} title="Movie Details" />

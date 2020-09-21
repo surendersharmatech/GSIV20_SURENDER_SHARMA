@@ -24,7 +24,8 @@
 }
 .card_right img {
     height: 390px;
-    border-radius: 2px;
+    border-radius: 20px;
+
 }
 .card_right {
     border-radius: 2px;
@@ -120,4 +121,21 @@ button:hover {
         to {
                 -webkit-transform: rotate(359deg);
         }
+}
+
+@media screen and (max-width: 600px){
+    .main_card{
+        display: block;
+    }  
+    .card_right img {
+        width: 100%;
+
+    border-radius: 20px;
+
+    }
+    .card_datails {
+        width: 100%;
+        padding: 9px 0px;
+        margin-top: 0px;
+    }
 }
