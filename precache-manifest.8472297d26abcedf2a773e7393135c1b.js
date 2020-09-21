@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b358a7134c45556ef2399f1cdcf39db",
+    "revision": "5b4aebba242b9fee534495f21e56717d",
     "url": "/GSIV20_SURENDER_SHARMA/index.html"
   },
   {
-    "revision": "9941af0d06e77aaf8063",
-    "url": "/GSIV20_SURENDER_SHARMA/static/css/main.fa1ac779.chunk.css"
+    "revision": "7baf0385b69ba5028720",
+    "url": "/GSIV20_SURENDER_SHARMA/static/css/main.032a2965.chunk.css"
   },
   {
     "revision": "2d73fb310c07a5699975",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GSIV20_SURENDER_SHARMA/static/js/2.9e39677d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9941af0d06e77aaf8063",
-    "url": "/GSIV20_SURENDER_SHARMA/static/js/main.b54fde12.chunk.js"
+    "revision": "7baf0385b69ba5028720",
+    "url": "/GSIV20_SURENDER_SHARMA/static/js/main.2af37c7a.chunk.js"
   },
   {
     "revision": "c779e379690a1256aa7b",
